@@ -1,7 +1,7 @@
 {
   "name": "grunt-unicorn",
   "description": "Always use grunt, unless you can use grunt-unicorn. Then always use grunt-unicorn.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/russmatney/grunt-unicorn",
   "author": {
     "name": "Russell Matney",
@@ -32,9 +32,6 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1"
-  },
-  "peerDependencies": {
     "grunt": "~0.4.1"
   },
   "keywords": [
