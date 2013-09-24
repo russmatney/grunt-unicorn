@@ -1,0 +1,43 @@
+{
+  "name": "grunt-unicorn",
+  "description": "Always use grunt, unless you can use grunt-unicorn. Then always use grunt-unicorn.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/russmatney/grunt-unicorn",
+  "author": {
+    "name": "Russell Matney",
+    "email": "russell.matney@gmail.com",
+    "url": "http://russmatney.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/russmatney/grunt-unicorn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/russmatney/grunt-unicorn/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/russmatney/grunt-unicorn/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
