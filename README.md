@@ -2,8 +2,41 @@
 
 > Always use grunt, unless you can use grunt-unicorn. Then always use grunt-unicorn.
 
+
+                    M       M                                                   
+.              M    MMM    MMM.                                                 
+MM MM          M M.MM MMMMM  M  MMMM                                            
+   MM MM     MMM..M          MMM  .MMM                            MMMMMNMM.     
+    .M MMMMMM  MM M    M.     MM.MMM .                          MM         M    
+      ,M M M.M.M  .M    M           MM                         M            M   
+        MM M M.    M. M  M.M          M        .MMMMMMMMMM.   M  M   MM M   M.  
+      MMMM  .M M   M  MM  .M    M MMMMM    MMM             M M.M. MMM  M    M   
+        MMM  M MM  .MMM MM.      M. M .MMMM.               .M. M M   M.    M    
+         .M.  MM    .     M. M.  M . M                       MMMM    M     M    
+          ..       M.      M.MM.    .M                       .M      M  ..M     
+          M.      MMM.    MMM M .MMMMM                        M.     M . M    . 
+          M      M  M     .    MM.MMM                         .M    .M.  M. .MM 
+          M.   .MM  M.          .M M                           M     MM  .MMMMM 
+           M  M.M  .M             MMM                          M       MM . .MM 
+            MMM.   .M              M             M             MMMMMM..  ...    
+                    MM                           M.                  MM         
+                    MM          .                M.                  .M         
+                  MM. M       MM                MMMM                 MM         
+                 MM  M.      MM            MMM      MM..      .     .M.         
+                MM .MM     MMMMMMMMMMMMMM.             MMMMMMMMMM   MM          
+              .MM MM. .MMMM                               M    MM  .M           
+              MM M.  MM.                                 M     M   MM           
+              MMMM   MM                                  M    MM   M            
+              .M M.   M                                 M    .M    M            
+                MMMM. MM.                              M     M    .M            
+                 M .M   MMMMMM                         M    MM    MM            
+                  M  M    .M MM                        .M   MM   MM             
+                  .MMMM     M M.                        M    M   .MM            
+                        M. MMMMM                        M.  .MM M  M            
+                                                        M. MM.M  .MM            
+                                                         MM   MMMM             
+
 ## Getting Started
-This plugin requires Grunt `~0.4.1`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -19,64 +52,14 @@ grunt.loadNpmTasks('grunt-unicorn');
 
 ## The "unicorn" task
 
-### Overview
-In your project's Gruntfile, add a section named `unicorn` to the data object passed into `grunt.initConfig()`.
-
 ```js
 grunt.initConfig({
   unicorn: {
     options: {
-      // Task-specific options go here.
+      // Don't put anything here, unless it's a clever comment
     },
     your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
-})
-```
-
-### Options
-
-#### options.separator
-Type: `String`
-Default value: `',  '`
-
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
-
-### Usage Examples
-
-#### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
-
-```js
-grunt.initConfig({
-  unicorn: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-})
-```
-
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
-
-```js
-grunt.initConfig({
-  unicorn: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      // I'm not sure why you'd want this yet either
     },
   },
 })
