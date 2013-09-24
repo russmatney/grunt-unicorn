@@ -2,7 +2,7 @@
 
 > Always use grunt, unless you can use grunt-unicorn. Then always use grunt-unicorn.
 
-
+```
                     M       M                                                   
 .              M    MMM    MMM.                                                 
 MM MM          M M.MM MMMMM  M  MMMM                                            
@@ -35,6 +35,7 @@ MM MM          M M.MM MMMMM  M  MMMM
                         M. MMMMM                        M.  .MM M  M            
                                                         M. MM.M  .MM            
                                                          MM   MMMM             
+```
 
 ## Getting Started
 
