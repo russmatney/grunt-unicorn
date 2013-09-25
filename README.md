@@ -2,40 +2,7 @@
 
 > Always use grunt, unless you can use grunt-unicorn. Then always use grunt-unicorn.
 
-```
-                    M       M                                                   
-.              M    MMM    MMM.                                                 
-MM MM          M M.MM MMMMM  M  MMMM                                            
-   MM MM     MMM..M          MMM  .MMM                            MMMMMNMM.     
-    .M MMMMMM  MM M    M.     MM.MMM .                          MM         M    
-      ,M M M.M.M  .M    M           MM                         M            M   
-        MM M M.    M. M  M.M          M        .MMMMMMMMMM.   M  M   MM M   M.  
-      MMMM  .M M   M  MM  .M    M MMMMM    MMM             M M.M. MMM  M    M   
-        MMM  M MM  .MMM MM.      M. M .MMMM.               .M. M M   M.    M    
-         .M.  MM    .     M. M.  M . M                       MMMM    M     M    
-          ..       M.      M.MM.    .M                       .M      M  ..M     
-          M.      MMM.    MMM M .MMMMM                        M.     M . M    . 
-          M      M  M     .    MM.MMM                         .M    .M.  M. .MM 
-          M.   .MM  M.          .M M                           M     MM  .MMMMM 
-           M  M.M  .M             MMM                          M       MM . .MM 
-            MMM.   .M              M             M             MMMMMM..  ...    
-                    MM                           M.                  MM         
-                    MM          .                M.                  .M         
-                  MM. M       MM                MMMM                 MM         
-                 MM  M.      MM            MMM      MM..      .     .M.         
-                MM .MM     MMMMMMMMMMMMMM.             MMMMMMMMMM   MM          
-              .MM MM. .MMMM                               M    MM  .M           
-              MM M.  MM.                                 M     M   MM           
-              MMMM   MM                                  M    MM   M            
-              .M M.   M                                 M    .M    M            
-                MMMM. MM.                              M     M    .M            
-                 M .M   MMMMMM                         M    MM    MM            
-                  M  M    .M MM                        .M   MM   MM             
-                  .MMMM     M M.                        M    M   .MM            
-                        M. MMMMM                        M.  .MM M  M            
-                                                        M. MM.M  .MM            
-                                                         MM   MMMM             
-```
+<img src="./unicorn-screenshot.png">
 
 ## Getting Started
 
